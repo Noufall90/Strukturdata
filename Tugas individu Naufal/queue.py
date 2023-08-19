@@ -16,9 +16,6 @@ class Que:
     def is_empty(self):
         return len(self.items) == 0
 
-    def size(self):
-        return len(self.items)
-
 queue = Que()
 
 initial_elements = [1, 2, 3, 4, 5]
